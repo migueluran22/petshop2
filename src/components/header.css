@@ -1,0 +1,49 @@
+header {
+    background-color: green;
+    padding: 0 20px;
+    height: 100px;
+}
+
+.navbar {
+    display: flex;
+    align-items: center;
+    justify-content: space-between; /* Asegura que el logo esté a la izquierda y los links a la derecha */
+    height: 100%;
+}
+
+.logo img {
+    width: 120px; /* Aumenta ligeramente el tamaño del logo si es necesario */
+    height: auto;
+    border-radius: 30px;
+}
+
+.nav-links {
+    list-style: none;
+    display: flex;
+    font-size: 1.1rem;
+    align-items: center; /* Asegura que los íconos estén alineados verticalmente con el logo */
+}
+
+.nav-links li {
+    margin-left: 30px;
+}
+
+.nav-links a {
+    color: black;
+    text-decoration: none;
+    font-weight: bold;
+    display: flex;
+    align-items: center;
+    font-size: 20px;
+}
+
+.nav-links a:hover {
+    text-decoration: underline;
+}
+
+.nav-links li a svg {
+    font-size: 30px; /* Ajusta el tamaño del ícono según la proporción deseada */
+    margin-right: 15px; /* Aumenta el espacio entre el ícono y el texto si es necesario */
+}
+
+@import url('https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0-beta3/css/all.min.css');
